@@ -1,5 +1,5 @@
-.holder {
-  height: 150px;
+ .holder {
+  height: 100px;
   width: 299px;
   margin-left: auto;
   margin-right: auto;
@@ -14,19 +14,19 @@
 
 .item {
   text-align: center;
-  flex-basis: 100px;
   height: 50px;
   background-color: brown;
   line-height: 50px;
 }
 
 .item-5 {
+  width: 50%;
   order: -2;
   background-color: chocolate;
 }
 
 .item-1 {
-  gap: 0;
+  width: 50%;
   order: -3;
   background-color: orangered;
 }
