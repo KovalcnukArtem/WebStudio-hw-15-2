@@ -1,22 +1,49 @@
 .holder {
-  display: flex ;
-}
-.item {
   height: 150px;
-  width: 200px;
-  text-align: center;
-  background-color: orange;
-  line-height: 100px;
-  vertical-align: center;
-  margin-right: 15px;
-}
-.item-5{
-  order: -2;
-}
-.item-1 {
-  order: -3;
-}
-.item-3 {
-  order: 2;  
+  width: 299px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  text-align: center;
+  flex-basis: 100px;
+  height: 50px;
+  background-color: brown;
+  line-height: 50px;
+}
+
+.item-5 {
+  order: -2;
+  background-color: chocolate;
+}
+
+.item-1 {
+  gap: 0;
+  order: -3;
+  background-color: orangered;
+}
+
+.item-3 {  
+  order: -1;
+  background-color: purple;
+}
+
+.item-2 {
+  background-color: cornflowerblue;
+}
+
+.item-4 {
+  background-color: green;
+}
+
+.item-2, .item-3, .item-4 {
+  flex-grow: 1;
+}
